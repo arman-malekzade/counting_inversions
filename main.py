@@ -30,6 +30,5 @@ def sort_and_count(l):
         tup2=sort_and_count(second_half)
         tup3=merge_and_count(tup1[1],tup2[1])
         return tup1[0]+tup2[0]+tup3[0],tup3[1]
-    return
 l=[1,5,4,8,10,2,6,9,12,11,3,7]
 print sort_and_count(l)
